@@ -7,10 +7,10 @@
 export default
 {
 
-crush: (string, maxSubstringLength=50)=>
+window.JsCrushW = crush: (string, maxSubstringLength=50)=>
 {
     const delimiter = '\u0001'; // used to split parts of crushed string
-    window.JsCrushW = JSCrush=(string, replaceCharacters)=>
+     JSCrush=(string, replaceCharacters)=>
     {
         // JSCrush Algorithm (repleace repeated substrings with single characters)
         let replaceCharacterPos = replaceCharacters.length;
